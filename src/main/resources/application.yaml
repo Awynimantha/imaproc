@@ -1,0 +1,12 @@
+spring:
+    datasource:
+        url: jdbc:postgresql://localhost:5432/improc
+        username: telco
+        password: 1234
+        driver-class-name: org.postgresql.Driver
+    jpa:
+        properties:
+            hibernate:
+                ddl-auto: create
+                dialect: org.hibernate.dialect.PostgreSQLDialect
+    
