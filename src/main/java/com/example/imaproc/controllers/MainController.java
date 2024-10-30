@@ -8,8 +8,7 @@ import org.springframework.web.bind.annotation.SessionAttributes;
 @Controller
 @RequestMapping("/api")
 @SessionAttributes("user")
-
 public class MainController {
- 
+
     
 }
